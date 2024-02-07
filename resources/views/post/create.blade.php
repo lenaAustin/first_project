@@ -11,7 +11,7 @@
                     type="text" name="title" class="form-control" id="title" placeholder="Title">
 
                 @error('title')
-                <p class="text-danger">{{ $message }}</p>
+                <p class="text-dark">{{ $message }}</p>
                 @enderror
 
             </div>
